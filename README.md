@@ -34,7 +34,7 @@ Bu proje, Google Finans üzerinden anlık altın fiyatlarını çeken ve zaman s
 2. Install dependencies: / Gerekli kütüphaneleri kurun:  
    `pip install requests beautifulsoup4`
 3. Run the script: / Kodu çalıştırın:  
-   `python web.py`
+   `python gold_scraper.py`
 
 ---
 *Developed for Big Data Analytics and Data Science Portfolio.*
