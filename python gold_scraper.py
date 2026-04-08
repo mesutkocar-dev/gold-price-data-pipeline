@@ -37,7 +37,7 @@ try:
             tarih = simdi.strftime("%d.%m.%Y")
             saat = simdi.strftime("%H:%M:%S")
             
-            # Dosyaya ekleme moduyla ('a' - append) yaz
+            # Dosyaya ekleme moduyla ('a' - append) 
             with open(dosya_adi, "a", encoding="utf-8") as f:
                 f.write(f"{tarih};{saat};{temiz_fiyat}\n")
             
